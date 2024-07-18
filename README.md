@@ -31,3 +31,9 @@ The current version supports the following atomistic simulations (in unary and b
 - __OpenAI API__ key is required to run the codes and must be provided in the __config_list__ file. 
 - To utilize this code, LAMMPS must be compiled with Python support. For more information, visit the [LAMMPS documentation](https://docs.lammps.org/Python_head.html).
 - The interatomic potential files must be provided in the __potential_repository__ directory.
+
+![exp_3-1](https://github.com/user-attachments/assets/0e34daa1-5928-4875-b2bc-4114c5b6f435)
+
+Figure 1: Example result, showing an overview of the multi-agent work to solve a multi-scale alloy design task.
+
+
