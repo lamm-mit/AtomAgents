@@ -21,11 +21,12 @@ The concerted effort of the multi-agent system allows for addressing complex mat
 Figure 1: Overview of the model and approach. 
 
 ### Codes
-This repository contains the codes to solve complex alloy design and analysis problems using AtomAgents, an LLM-based multi-agent framework. The file named AtomAgents.ipynb is the main file to present your query as text input. The files named AtomAgents_exp_2 and AtomAgents_exp_3 in the repository, are two examples corresponding to the experiments II, and III, in the corresponding paper, respectively.   
+This repository contains the codes to solve complex alloy design and analysis problems using AtomAgents, an LLM-based multi-agent framework. The file named __AtomAgents.ipynb__ is the main file to present your query as text input. The files named AtomAgents_exp_2 and AtomAgents_exp_3 in the repository, are two examples corresponding to the experiments II, and III, in the corresponding paper, respectively.   
 The current version supports the following atomistic simulations (in unary and binary systems):
 - Lattice constant, elastic constants, and surface energy calculations in FCC and BCC materials
 - Create a 1/2<111> screw dislocation in BCC materials
 - Perform nudged elastic band (NEB) simulations to compute the Peierls barrier against 1/2<111> screw dislocation in BCC materials 
 
 ### Requirements
-OpenAI API key is required to run the codes and should be provided in the . The OpenAI key must be provided in the "llm_config.py" file. Moreover, keys must be provided in the main files, exp1, exp2, and exp3. 
+- __OpenAI API__ key is required to run the codes and must be provided in the __config_list__ file. 
+- To utilize this code, LAMMPS must be compiled with Python support. For more information, visit the [LAMMPS documentation](https://docs.lammps.org/Python_head.html).
