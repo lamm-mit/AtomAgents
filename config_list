@@ -1,0 +1,14 @@
+[{
+  "api_key": "sk-",
+  "model": "gpt-4o",
+  "temperature": 0.0,
+  "cache_seed": 43,
+  "timeout": 540000
+},
+{
+  "api_key": "sk-",
+  "model": "gpt-4-turbo",
+  "temperature": 0.0,
+  "cache_seed": 43,
+  "timeout": 540000
+}]

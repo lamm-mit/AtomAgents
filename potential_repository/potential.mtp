@@ -1,0 +1,26 @@
+# NOTE: This script can be modified for different pair styles 
+# See in.elastic for more info.
+
+# Choose potential
+pair_style mlip relax.ini
+pair_coeff * *
+
+# Setup neighbor style
+neighbor 1.0 nsq
+neigh_modify once no every 1 delay 0 check yes
+
+#Definition of computes: energy and 'stress' per atom
+compute ener all pe/atom
+compute eatoms all reduce sum c_ener
+compute ast all stress/atom NULL
+compute pha all cna/atom ${cnap}
+
+# Setup output
+thermo 10
+thermo_style custom step temp pe xz xy yz press pxx pyy pzz pxy pxz pyz c_eatoms fnorm
+thermo_modify norm no flush yes format 3 %16.13g
+
+mass 1 1.0
+mass 2 1.0
+mass 3 1.0
+mass 4 1.0
