@@ -21,4 +21,4 @@ The concerted effort of the multi-agent system allows for addressing complex mat
 Figure 1: Overview of the model and approach. 
 
 ### Codes
-This repository contains codes to solve complex problems in the context of protein design and analysis using multi-agent framework. The files named exp1, exp2, and exp3 in the repository, corresponding to the experiments I, II, and III, in the corresponding paper, respectively.   
+This repository contains the codes to solve complex alloy design and analysis problems using AtomAgents, an LLM-based multi-agent framework. The file named AtomAgents.ipynb is the main file to present your query as text input. The files named AtomAgents_exp_2 and AtomAgents_exp_3 in the repository, are two examples corresponding to the experiments II, and III, in the corresponding paper, respectively.   
