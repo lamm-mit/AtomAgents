@@ -27,3 +27,5 @@ The current version supports the following atomistic simulations (in unary and b
 - Create a 1/2<111> screw dislocation in BCC materials
 - Perform nudged elastic band (NEB) simulations to compute the Peierls barrier against 1/2<111> screw dislocation in BCC materials 
 
+### Requirements
+OpenAI API key is required to run the codes and should be provided in the . The OpenAI key must be provided in the "llm_config.py" file. Moreover, keys must be provided in the main files, exp1, exp2, and exp3. 
