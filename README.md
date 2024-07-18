@@ -30,3 +30,4 @@ The current version supports the following atomistic simulations (in unary and b
 ### Requirements
 - __OpenAI API__ key is required to run the codes and must be provided in the __config_list__ file. 
 - To utilize this code, LAMMPS must be compiled with Python support. For more information, visit the [LAMMPS documentation](https://docs.lammps.org/Python_head.html).
+- The interatomic potential files must be provided in the __potential_repository__ directory.
