@@ -1,6 +1,4 @@
-# AtomAgent
-
-## AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence
+# AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence
 
 A. Ghafarollahi, M.J. Buehler*
 
@@ -36,4 +34,18 @@ The current version supports the following atomistic simulations (in unary and b
 
 Figure 1: Example result, showing an overview of the multi-agent work to solve a multi-scale alloy design task.
 
+### Reference
 
+Please see paper for further details. 
+
+```bibtex
+@misc{ghafarollahi2024atomagentsalloydesigndiscovery,
+      title={AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence}, 
+      author={Alireza Ghafarollahi and Markus J. Buehler},
+      year={2024},
+      eprint={2407.10022},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2407.10022}, 
+}
+```
