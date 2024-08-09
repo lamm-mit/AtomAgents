@@ -36,16 +36,17 @@ Figure 1: Example result, showing an overview of the multi-agent work to solve a
 
 ### Reference
 
-Please see paper for further details. 
+Please see the paper on arXiv for further details. 
 
 ```bibtex
-@misc{ghafarollahi2024atomagentsalloydesigndiscovery,
-      title={AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence}, 
+@article{ghafarollahi2024atomagentsalloydesigndiscovery,
+      title={AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence},
       author={Alireza Ghafarollahi and Markus J. Buehler},
       year={2024},
       eprint={2407.10022},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2407.10022}, 
+      url={https://arxiv.org/abs/2407.10022},
+      month={July}
 }
 ```
