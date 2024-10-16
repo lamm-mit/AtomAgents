@@ -16,7 +16,7 @@ The concerted effort of the multi-agent system allows for addressing complex mat
 
 ![AtomAgents](https://github.com/user-attachments/assets/e8e74ebe-5bac-49b9-846c-c2c84d679cb6)
 
-Figure 1: Overview of the GNN-powered, LLM-based multi-agent system for rapid and automated alloy design.
+Figure 1: Overview of the multi-agent model.
 
 ### Codes
 This repository contains the codes to solve complex alloy design and analysis problems using AtomAgents, an LLM-based multi-agent framework. The file named __AtomAgents.ipynb__ is the main file to present your query as text input. The files named AtomAgents_exp_2 and AtomAgents_exp_3 in the repository, are two examples corresponding to the experiments II, and III, in the corresponding paper, respectively.   
