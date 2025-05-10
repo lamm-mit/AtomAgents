@@ -36,7 +36,7 @@ Figure 1: Example result, showing an overview of the multi-agent work to solve a
 
 ### Reference
 
-Please see the paper on arXiv for further details. 
+Please see the paper published in _PNAS_ for further details. 
 
 ```bibtex
 @article{ghafarollahi2025automating,
